@@ -34,9 +34,4 @@ def temperature_controller(heating_ON, temp, temp_should, temp_range):
         heating_ON = False
     return heating_ON
 
-outputs_conversion = conversion_values(True, 25, 28, 8320)
 
-temp=outputs_conversion[0]
-temp_should=outputs_conversion[1]
-
-temperature_controller(True, temp, temp_should, 0.5)
