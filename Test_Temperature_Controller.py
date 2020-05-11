@@ -1,4 +1,4 @@
-from utils import conversion_values, temperature_controller
+from temperature_controller import conversion_values, temperature_controller
 
 def test_conversion():
     assert conversion_values(True, 25, 28, 8320) [0] == 26
