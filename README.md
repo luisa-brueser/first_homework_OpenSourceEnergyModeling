@@ -1,2 +1,4 @@
-# first_homework_OpenSourceEnergyModeling
-Repo as first homework of the Lecture in Spring 2020
+# Simple two-level temperature controller
+
+This repo was created as a homework for a class of on Open Source Energy Modeling (May 2020)
+
