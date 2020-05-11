@@ -19,7 +19,9 @@ limitations under the License.
 ## Description
 This repo was created as a homework for a class of on Open Source Energy Modeling (May 2020)
 
-The code descripts a simple two-level temperature controller. The functions can be used for the first laboratory excercise for the lecture "Automatisierungs- und Steuerungssysteme" at TU Vienna. 
+The code descripts a simple two-level temperature controller. The functions can be used for the first laboratory excercise for the lecture "Automatisierungs- und Steuerungssysteme" at TU Vienna. The aim is to keep a given temperature (input) within a range by turning a heater ON or OFF (output).
 
-The code consists of 2 functions: The "conversion_values" function allows you to convert the analog signal of an external temperatur sensor into the physical measured value in °C. As the laboratory has two different models of senors, you can choose whether you are working with VT_1 or VT_2. As input you need to know with which model you are working (VT1 or VT2), what temperatures are wished for and you need to import the analog sigal from the temperature senor. 
+The code consists of 2 functions: 
+The "conversion_values" function allows you to convert the analog signal of an external temperatur sensor into the physical measured value in °C. As the laboratory has two different models of senors, you can choose whether you are working with VT_1 or VT_2. As input you need to know with which model you are working (VT1 or VT2), what temperatures are wished for and you need to import the analog sigal from the temperature senor. 
+
 The secound function "temperature_controller" is the temperture controller itself. It sets the Heater on ON or OFF. As an input it gets the signal if the Heater is already on (True or False), the physical value of the temperature from the "conversion_values" function, the wished for temperture and the range of temperature for the hysteresis.
