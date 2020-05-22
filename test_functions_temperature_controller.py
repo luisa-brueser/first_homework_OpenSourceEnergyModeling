@@ -11,4 +11,4 @@ temp_should=outputs_conversion[1]
 
     
 def test_controller():
-    assert temperature_controller(True, temp, temp_should, 0.5) == False
+    assert temperature_controller(True, temp, temp_should, 0.5) == True
